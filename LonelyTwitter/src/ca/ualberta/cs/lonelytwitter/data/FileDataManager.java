@@ -9,6 +9,7 @@ import java.util.List;
 
 import android.content.Context;
 import android.util.Log;
+import ca.ualberta.cs.lonelytwitter.Summary;
 import ca.ualberta.cs.lonelytwitter.Tweet;
 
 public class FileDataManager implements IDataManager{
@@ -48,6 +49,14 @@ public class FileDataManager implements IDataManager{
 		catch (Exception e) {
 			e.printStackTrace();
 		}
+	}
+	public Summary loadStats(){
+		Summary sum=null;
+		return sum;
+		
+	}
+	public void saveStats(Summary sum){
+		
 	}
 
 }
